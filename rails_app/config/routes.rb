@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'statis_pages/home'
+
+  get 'statis_pages/help'
+
   resources :microposts
   resources :users
   root 'users#index'
